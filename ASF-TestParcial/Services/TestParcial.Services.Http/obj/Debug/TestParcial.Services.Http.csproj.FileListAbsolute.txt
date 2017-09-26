@@ -1,0 +1,5 @@
+D:\Trioullier.Gustavo\ASF-TestParcial\bin\TestParcial.Services.Http.dll
+D:\Trioullier.Gustavo\ASF-TestParcial\bin\TestParcial.Services.Http.pdb
+D:\Trioullier.Gustavo\ASF-TestParcial\Services\TestParcial.Services.Http\obj\Debug\TestParcial.Services.Http.csprojResolveAssemblyReference.cache
+D:\Trioullier.Gustavo\ASF-TestParcial\Services\TestParcial.Services.Http\obj\Debug\TestParcial.Services.Http.dll
+D:\Trioullier.Gustavo\ASF-TestParcial\Services\TestParcial.Services.Http\obj\Debug\TestParcial.Services.Http.pdb

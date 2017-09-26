@@ -1,0 +1,5 @@
+D:\Trioullier.Gustavo\ASF-TestParcial\bin\TestParcial.Business.dll
+D:\Trioullier.Gustavo\ASF-TestParcial\bin\TestParcial.Business.pdb
+D:\Trioullier.Gustavo\ASF-TestParcial\Business\TestParcial.Business\obj\Debug\TestParcial.Business.csprojResolveAssemblyReference.cache
+D:\Trioullier.Gustavo\ASF-TestParcial\Business\TestParcial.Business\obj\Debug\TestParcial.Business.dll
+D:\Trioullier.Gustavo\ASF-TestParcial\Business\TestParcial.Business\obj\Debug\TestParcial.Business.pdb
