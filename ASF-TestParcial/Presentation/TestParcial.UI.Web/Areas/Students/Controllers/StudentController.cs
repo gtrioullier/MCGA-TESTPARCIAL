@@ -15,7 +15,14 @@ namespace TestParcial.UI.Web.Areas.Students.Controllers
         public ActionResult Index()
         {
             var studentProcess = new StudentProcess();
+            var country = new CountryProcess();
             var lista = studentProcess.SelectList();
+            var countries = country.SelectList();
+
+            foreach (var l in lista)
+            {
+                l.Pais = countries.Find(p => p.Id == l.CountryId);
+            }
             return View(lista);
         }
 

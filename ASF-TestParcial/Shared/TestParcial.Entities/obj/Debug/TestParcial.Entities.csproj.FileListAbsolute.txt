@@ -3,3 +3,8 @@ D:\Trioullier.Gustavo\ASF-TestParcial\bin\TestParcial.Entities.pdb
 D:\Trioullier.Gustavo\ASF-TestParcial\Shared\TestParcial.Entities\obj\Debug\TestParcial.Entities.csprojResolveAssemblyReference.cache
 D:\Trioullier.Gustavo\ASF-TestParcial\Shared\TestParcial.Entities\obj\Debug\TestParcial.Entities.dll
 D:\Trioullier.Gustavo\ASF-TestParcial\Shared\TestParcial.Entities\obj\Debug\TestParcial.Entities.pdb
+C:\Users\rick\Source\Repos\MCGA-TESTPARCIAL\ASF-TestParcial\Shared\TestParcial.Entities\obj\Debug\TestParcial.Entities.csprojResolveAssemblyReference.cache
+C:\Users\rick\Source\Repos\MCGA-TESTPARCIAL\ASF-TestParcial\Shared\TestParcial.Entities\obj\Debug\TestParcial.Entities.dll
+C:\Users\rick\Source\Repos\MCGA-TESTPARCIAL\ASF-TestParcial\Shared\TestParcial.Entities\obj\Debug\TestParcial.Entities.pdb
+C:\Users\rick\Source\Repos\MCGA-TESTPARCIAL\ASF-TestParcial\bin\TestParcial.Entities.dll
+C:\Users\rick\Source\Repos\MCGA-TESTPARCIAL\ASF-TestParcial\bin\TestParcial.Entities.pdb

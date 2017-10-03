@@ -22,7 +22,7 @@
         <div class="form-group">
             @Html.LabelFor(model => model.Alias, new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.EditorFor(model => model.Alias)
+                @Html.TextBoxFor(model => model.Alias, new { @class = "form-control", @maxlength = "10" })
                 @Html.ValidationMessageFor(model => model.Alias)
             </div>
         </div>
@@ -30,7 +30,7 @@
         <div class="form-group">
             @Html.LabelFor(model => model.FirstName, new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.EditorFor(model => model.FirstName)
+                @Html.TextBoxFor(model => model.FirstName, new { @class = "form-control" })
                 @Html.ValidationMessageFor(model => model.FirstName)
             </div>
         </div>
@@ -38,7 +38,7 @@
         <div class="form-group">
             @Html.LabelFor(model => model.LastName, new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.EditorFor(model => model.LastName)
+                @Html.TextBoxFor(model => model.LastName, new { @class = "form-control" })
                 @Html.ValidationMessageFor(model => model.LastName)
             </div>
         </div>
@@ -46,7 +46,7 @@
         <div class="form-group">
             @Html.LabelFor(model => model.Email, new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.EditorFor(model => model.Email)
+                @Html.TextBoxFor(model => model.Email, new { @class = "form-control" })
                 @Html.ValidationMessageFor(model => model.Email)
             </div>
         </div>
@@ -54,7 +54,7 @@
         <div class="form-group">
             @Html.LabelFor(model => model.City, new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.EditorFor(model => model.City)
+                @Html.TextBoxFor(model => model.City, new { @class = "form-control" })
                 @Html.ValidationMessageFor(model => model.City)
             </div>
         </div>
@@ -62,7 +62,7 @@
         <div class="form-group">
             @Html.LabelFor(model => model.CountryId, new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.DropDownListFor(model => model.CountryId, new SelectList(ViewBag.countries, "Id", "Name"), new { @class = "control-label col-md-2" })
+                @Html.DropDownListFor(model => model.CountryId, new SelectList(ViewBag.countries, "Id", "Name"), new { @class = "form-control" })
                 @Html.ValidationMessageFor(model => model.CountryId)
             </div>
         </div>
@@ -70,7 +70,7 @@
         <div class="form-group">
             @Html.LabelFor(model => model.DateOfBirth, new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.EditorFor(model => model.DateOfBirth, new { type = "date" })
+                @Html.TextBoxFor(model => model.DateOfBirth, new { @type = "date" , @class = "form-control" })
                 @Html.ValidationMessageFor(model => model.DateOfBirth)
             </div>
         </div>
@@ -78,7 +78,7 @@
         <div class="form-group">
             @Html.LabelFor(model => model.Gender, new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.DropDownList("Gender", EnumHelper.GetSelectList(typeof(Gender)))
+                @Html.DropDownList("Gender", EnumHelper.GetSelectList(typeof(Gender)), new { @class = "form-control" })
                 @Html.ValidationMessageFor(model => model.Gender)
             </div>
         </div>

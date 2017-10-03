@@ -15,6 +15,8 @@ namespace TestParcial.Entities
     [DataContract]
     public partial class Student
     {
+        public Country Pais { get; set; }
+
         /// <summary>
         /// 
         /// </summary>
@@ -69,5 +71,6 @@ namespace TestParcial.Entities
         /// </summary>
         [DataMember]
         public string Gender { get; set; }
+
     }
 }

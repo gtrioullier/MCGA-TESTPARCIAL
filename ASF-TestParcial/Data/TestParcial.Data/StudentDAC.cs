@@ -14,7 +14,7 @@ namespace TestParcial.Data
     public partial class StudentDAC : DataAccessComponent
     {
 
-        public Student Create(Student student)
+        public void Create(Student student)
         {
             const string sqlStatement = "INSERT INTO dbo.Student ([Alias], [FirstName], [LastName], [Email], [City], [CountryId], [DateOfBirth], [Gender])" +
                 " VALUES (@Alias, @FirstName, @LastName, @Email, @City, @CountryId, @DateOfBirth, @Gender)";
@@ -35,9 +35,8 @@ namespace TestParcial.Data
 
                 student.Id = Convert.ToInt32(db.ExecuteScalar(cmd));
             }
-
-            return student;
         }
+       
         public Student SelectById(int id)
         {
             const string sqlStatement = "SELECT * FROM dbo.Student WHERE [Id]=@id";
@@ -79,7 +78,8 @@ namespace TestParcial.Data
             }
             return result;
         }
-        private Student LoadStudent(IDataReader dr)
+      
+        private static Student LoadStudent(IDataReader dr)
         {
             Student student = new Student();
 

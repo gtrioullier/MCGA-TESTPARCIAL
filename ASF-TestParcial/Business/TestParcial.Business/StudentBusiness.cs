@@ -10,7 +10,7 @@ namespace TestParcial.Business
     /// <summary>
     /// Student business component.
     /// </summary>
-    public partial class StudentBusiness
+    public class StudentBusiness
     {
 
         public List<Student> All()

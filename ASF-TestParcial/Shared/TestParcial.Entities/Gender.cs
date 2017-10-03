@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace TestParcial.Entities
 {
-    public enum Gender 
+    public enum Gender
     {
         Masculino,
-        Femenino
+        Femenino 
     };
 }
